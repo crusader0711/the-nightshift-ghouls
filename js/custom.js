@@ -1,6 +1,6 @@
 /* ============================================================
    CUSTOM VIEWS — v1.TW convention: Tailwind utilities only.
-   roster:   stat row + 8 profile cards + doctrine teaser
+   roster:   stat row + 9 profile cards + doctrine teaser
    doctrine: full "why the team works" page
    ============================================================ */
 
@@ -12,10 +12,11 @@ window.CUSTOM = {
     const tagColor = { GATE: "border-flash text-flash", WATCH: "border-spectre text-spectre",
       KITCHEN: "border-warn text-warn", DOCS: "border-spectre text-spectre",
       LEDGER: "border-warn text-warn", MARKETS: "border-accent text-accent",
-      HOME: "border-accent text-accent", HEALTH: "border-flash text-flash" };
+      HOME: "border-accent text-accent", HEALTH: "border-flash text-flash",
+      SPEC: "border-spectre text-spectre" };
 
     const stats = [
-      { l: "Crew", v: "8", d: "one lane each" },
+      { l: "Crew", v: "9", d: "one lane each" },
       { l: "Money Moves", v: "0", d: "read-only · humans approve" },
       { l: "Cadence", v: "05:00–18:30", d: "scheduled briefs" },
       { l: "Reporting Line", v: "1", d: "via Count Grokula" },
@@ -55,7 +56,7 @@ window.CUSTOM = {
       <div class="flex justify-center mt-1 mb-2">
         <img src="${esc(SITE.logo)}" alt="The Nightshift Ghouls — team logo" class="w-full max-w-[520px] rounded-[14px] border border-line" loading="eager">
       </div>
-      <p class="font-mono text-[11px] text-ink2 text-center mt-0 mb-4">Eight specialized agents · observe, report, propose · one reporting line</p>
+      <p class="font-mono text-[11px] text-ink2 text-center mt-0 mb-4">Nine specialized agents · observe, report, propose · one reporting line</p>
       <div class="grid gap-3 mb-4" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">${stats}</div>
       <div class="section-label">Profiles</div>
       <div class="grid gap-3.5" style="grid-template-columns:repeat(auto-fill,minmax(270px,1fr))">${BOTS.map(card).join("")}</div>

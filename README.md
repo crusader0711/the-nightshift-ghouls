@@ -3,13 +3,13 @@
 <div align="center"><img src="./assets/nightshift-ghouls-logo.jpg" width="440" alt="The Nightshift Ghouls" /></div>
 
 **THE NIGHTSHIFT GHOULS** — the AI bot team roster, a themed fork of Project SAGE.
-Eight household agents, one lane each, hard limits enforced, one reporting line
+Nine household agents, one lane each, hard limits enforced, one reporting line
 through the Chief of Staff (Count Grokula). No bot moves money or trades; nothing
 is sent, paid, or ordered without per-instance human approval.
 Built on the static-spa v1.TW engine: zero backend, hash-routed, dark-only,
 JetBrains Mono, ecto-green + spectre-violet.
 
-**Pages:** Roster (`#/`) — stat row + eight profile cards (avatar, tagline,
+**Pages:** Roster (`#/`) — stat row + nine profile cards (avatar, tagline,
 lane, schedule, hard limits, reports) · Doctrine (`#/doctrine`) —
 why the team works.
 

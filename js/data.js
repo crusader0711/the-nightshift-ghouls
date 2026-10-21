@@ -4,7 +4,7 @@
    household roles (docs/dashboard/cards.json).
    Fields:
      tagline  the bot's own words (verbatim, in quotes on the card)
-     tag      lane chip: GATE · WATCH · KITCHEN · DOCS · LEDGER · MARKETS · HOME · HEALTH
+     tag      lane chip: GATE · WATCH · KITCHEN · DOCS · LEDGER · MARKETS · HOME · HEALTH · SPEC
      lane     what the bot owns — one sentence, verb-first
      schedule when it runs (24h local time)
      limits   HARD LIMITS — what it must never do (rendered in red)
@@ -15,7 +15,7 @@ const SITE = {
   name: "THE NIGHTSHIFT GHOULS",
   tagline: "// ai bot team roster — a Project SAGE fork",
   logo: "assets/nightshift-ghouls-logo.jpg",
-  stripLeft: "NIGHTSHIFT GHOULS · CREW: 8 · PROJECT SAGE",
+  stripLeft: "NIGHTSHIFT GHOULS · CREW: 9 · PROJECT SAGE",
   stripRight: "dtg",
   lsPrefix: "gng:",
   footer: "THE NIGHTSHIFT GHOULS — static roster, no telemetry, no credentials. Every bot observes and reports; only humans approve.",
@@ -128,6 +128,19 @@ const BOTS = [
       "Health data never enters git or team-wide artifacts",
     ],
     reports: "Count Grokula → owner (private)",
+  },
+  {
+    name: "Specbuster", img: "assets/specbuster.jpg", tag: "SPEC",
+    tagline: "I bust bad specs before they haunt production.",
+    lane: "Special unit — reviews specs and security posture for owner-assigned projects and writes plans only.",
+    schedule: "Idle — activates only under an owner-approved statement of work",
+    limits: [
+      "Never moves money, transfers funds, or trades — read-only",
+      "Never sends, posts, pays, or orders without per-instance human approval",
+      "Holds no credentials — owner-attached artifacts only",
+      "Never pushes, merges, or deploys",
+    ],
+    reports: "Count Grokula → owner",
   },
 ];
 

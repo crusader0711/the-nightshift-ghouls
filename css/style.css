@@ -1,6 +1,6 @@
 /* ============================================================
    GHOSTS & GOBLINS — theme tokens (edit ONLY this block to re-skin).
-   Dark-only. Ecto green primary (OFS neon family), spectre violet
+   Dark-only. Ecto green primary (neon family), spectre violet
    as the secondary haunt color. Structural CSS below is engine-owned.
    ============================================================ */
 :root {
@@ -10,7 +10,7 @@
   --ink: #e9e6f5;         /* bone white                            */
   --ink-2: #8d87a8;       /* fog gray-violet                       */
   --line: #262238;        /* hairlines                             */
-  --accent: #39ff6e;      /* ecto green (OFS neon family)          */
+  --accent: #39ff6e;      /* ecto green (neon family)          */
   --spectre: #a78bfa;     /* spectre violet — secondary            */
   --flash: #ff5c5c;       /* hard-limit red                        */
   --ok: #39ff6e;
