@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use or reference this project, please cite it as below."
+title: "The Nightshift Ghouls"
+type: software
+authors:
+  - alias: crusader0711
+repository-code: "https://github.com/crusader0711/the-nightshift-ghouls"
+url: "https://crusader0711.github.io/the-nightshift-ghouls/"
+license: MIT
+abstract: "Static roster dashboard for The Nightshift Ghouls, a themed AI bot team: one lane per bot, hard limits, human approval on anything that sends, pays or orders."
